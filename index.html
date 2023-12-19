@@ -16,20 +16,20 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section data-auto-animate data-background-opacity="0.1" data-background="assets/family.webp">
-					<h2 class="r-fit-text">Merry Christmas</h2>
+				<section data-transition="fade-out" data-background-opacity="0.4" data-background="assets/20230519_090230r.webp">
+					<h1 style="color: rgb(255, 255, 255);">Merry<br/> Christmas</h1>
 					<h2>2023</h2>
 				</section>
 				</section>
-				<section data-auto-animate data-background-opacity="0.1" data-background="assets/family.webp">
-					<h2 class="r-fit-text">Happy New Year!</h2>
-					<h2>2024</h2>
+				<section data-background-opacity="0.4" data-transition="fade-in fade-out" data-background="assets/20230527_182837.webp">
+					<h1>Happy<br/> New Year</h1>
+					<h2 style="color: rgb(255, 255, 255);">2024</h2>
 				</section>
 				<section data-background-transition="fade" data-background-opacity="1" data-background="assets/family.webp">
 				</section>
-				<section data-transition="zoom" data-background-opacity="0.1" data-background="assets/family.webp">
-					<h2>from</h2>
-					<h2 class="r-fit-text">Hans - Mia - Hannah - Anja - Elias</h2>
+				<section data-transition="zoom" data-background-opacity="0.4" data-background="assets/family.webp">
+					<h2 style="color: rgb(255, 255, 255);">from</h2>
+					<h3>Hans - Mia - Hannah - Anja - Elias</h3>
 				</section>
 			</div>
 		</div>
@@ -44,6 +44,7 @@
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
+				scrollActivationWidth: null,
 
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
