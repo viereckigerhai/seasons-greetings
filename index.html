@@ -20,10 +20,11 @@
 					<h2>Season's Greetings !</h2>
 					<p style="text-align: left;">For the best viewing experience:</p>
 					<ul>
-						<li>Enable fullscreen (bottom left)</li>
-						<li>Switch/rotate to landscape mode</li>
+						<li>Enable fullscreen (bottom left)*</li>
+						<li>Switch/rotate device to landscape mode</li>
 						<li>Swipe or click (bottom right) ...</li>
 					</ul>
+					<p style="font-size: 20px; text-align: left;">*Sorry, does not work on Safari/iPhone. Use Chrome instead...</p>
 				</section>
 				<section data-background-transition="fade" data-background-opacity="1" data-background="assets/20240804_142405.jpg">
 				</section>
@@ -57,6 +58,8 @@
 			Reveal.initialize({
 				hash: true,
 				scrollActivationWidth: null,
+				jumpToSlide: false,
+				overview: false,
 
 				toolbar: {
 					// Specifies where the toolbar will be shown: 'top' or 'bottom'
